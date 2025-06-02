@@ -1,126 +1,135 @@
-
-Vue.component('multiselect', VueMultiselect.default);
+Vue.component("multiselect", VueMultiselect.default);
 
 var vue = new Vue({
-    el: '#app',
-    data: {
-        search: '',
-        translations: { item: {} },
-        currentItems: [],
-        allItems: [],
-        neededZones: [],
-        noExtraData: true,
-        loading: true
+  el: "#app",
+  data: {
+    search: "",
+    translations: { item: {} },
+    currentItems: [],
+    allItems: [],
+    neededZones: [],
+    noExtraData: true,
+    loading: true,
+  },
+  methods: {
+    updateHash() {
+      updateWindowHash();
     },
-    methods: {
-        updateHash() {
-            updateWindowHash();
-        },
-        copy() {
-            var dt = new clipboard.DT();
-            dt.setData('text/plain', window.location.href);
-            clipboard.write(dt);
-        }
-    }
+    copy() {
+      var dt = new clipboard.DT();
+      dt.setData("text/plain", window.location.href);
+      clipboard.write(dt);
+    },
+  },
 });
 
 function formatData(data) {
-    return _(data.regions)
-        .map(({ name, subregions }) => {
-            var regionName = name;
+  const itemsList = _(data.regions)
+    .map(({ name, subregions }) => {
+      var regionName = name;
 
-            return _.map(subregions, ({ name, location, level, abbrev, items, ir, areaLevel }) => {
+      return _.map(subregions, ({ name, location, level, abbrev, items }) => {
+        var regionInfo = { name, location, level, abbrev };
 
-                var regionInfo = { name, location, level, abbrev, ir, areaLevel };
+        var sumName = name === regionName ? name : regionName + " - " + name;
 
-                var sumName = name === regionName ? name : regionName + ' - ' + name;
+        if (!items || items.length === 0) {
+          vue.neededZones.push(regionName + " - " + name);
+        }
 
-                if(!items || items.length === 0) {
-                    vue.neededZones.push(regionName + ' - ' + name);
-                }
+        return {
+          regionName: sumName + " ~ " + "Lv. " + (level || 1),
+          itemInfo: _.sortBy(
+            _.map(items || [], ({ name, source }) => {
+              return {
+                name,
+                data: {
+                  name,
+                  source,
+                },
+                regionData: regionInfo,
+              };
+            }),
+            "data.name"
+          ),
+        };
+      });
+    })
+    .flattenDeep()
+    .value();
 
-                return {
-                    regionName: sumName  + ' ~ ' + 'Lv. ' + level,
-                    itemInfo: _.sortBy(_.map(items || [], ({ name, level, source, events, coordinates }) => {
-                        return {
-                            name: name + ' ~ Lv. ' + level + ' (' + abbrev + ')',
-                            data: {
-                                name, level,
-                                events: events || [], coordinates: coordinates || []
-                            },
-                            regionData: regionInfo
-                        };
-                    }), 'data.level')
-                };
+  const items = {};
 
-            });
-        })
-        .flattenDeep()
-        .value();
+  itemsList.forEach(({ regionName, itemInfo }) => {
+    itemInfo.forEach(({ name, data, regionData }) => {
+      items[name] = items[name] || [];
+      items[name].push({
+        regionName,
+        data,
+        regionData,
+      });
+    });
+  });
+
+  const itemsListWithMulti = Object.keys(items).map((itemName) => {
+    return {
+      name: itemName,
+      data: items[itemName],
+    };
+  });
+
+  return _.sortBy(itemsListWithMulti, "name");
 }
 
 function loadPreviousItems() {
-    var loadItem = window.location.hash;
-    if(!loadItem) return;
+  var loadItem = window.location.hash;
+  if (!loadItem) return;
 
-    var searchNames = decodeURIComponent(loadItem.substring(1)).split('|');
+  var searchNames = decodeURIComponent(loadItem.substring(1)).split("|");
 
-    if(!searchNames || !searchNames.length) return;
+  if (!searchNames || !searchNames.length) return;
 
-    searchNames.forEach(searchName => {
-        var realSearchName = searchName
-            .split('~')
-            .join(' ~ ')
-            .split('Lv')
-            .join('Lv. ')
-            .split('(')
-            .join(' (');
+  searchNames.forEach((searchName) => {
+    var realSearchName = searchName;
 
-        var itemObj = _(vue.allItems)
-            .map('itemInfo')
-            .flattenDeep()
-            .filter(mon => _.includes(mon.name, realSearchName))
-            .value();
+    var itemObj = _(vue.allItems)
+      .filter((i) => _.includes(i.name, realSearchName))
+      .value();
 
-        if(!itemObj || !itemObj.length) return;
+    if (!itemObj || !itemObj.length) return;
 
-        vue.currentItems.push(...itemObj);
-    });
-
+    vue.currentItems.push(...itemObj);
+  });
 }
 
 function updateWindowHash() {
-    var allItems = vue.currentItems
-        .map(x => x.name)
-        .join('|');
+  var allItems = vue.currentItems.map((x) => x.name).join("|");
 
-    window.location.hash = '#' + encodeURIComponent(allItems);
+  window.location.hash = "#" + encodeURIComponent(allItems);
 }
 
 function translationXMLToHash(xmlData) {
-    var translations = {};
+  var translations = {};
 
-    _.each(xmlData.resource[0].message, ({ original, translation }) => {
-        translations[translation[0]._text] = original[0]._text;
-    });
+  _.each(xmlData.resource[0].message, ({ original, translation }) => {
+    translations[translation[0]._text] = original[0]._text;
+  });
 
-    return translations;
+  return translations;
 }
 
 function loadKey(key) {
-    return JSON.parse(localStorage.getItem(key));
+  return JSON.parse(localStorage.getItem(key));
 }
 
 function saveKey(key, value) {
-    localStorage.setItem(key, JSON.stringify(value));
+  localStorage.setItem(key, JSON.stringify(value));
 }
 
-axios.get('items.yml')
-    .then(res => {
-        var allData = YAML.parse(res.data);
-        vue.allItems = formatData(allData);
-        console.log(allData);
+axios.get("items.yml").then((res) => {
+  var allData = YAML.parse(res.data);
+  vue.allItems = formatData(allData);
 
-        loadPreviousItems();
-        vue.loading = false;
-    });
+  loadPreviousItems();
+  vue.loading = false;
+});
