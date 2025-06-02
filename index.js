@@ -38,7 +38,7 @@ function formatData(data) {
         }
 
         return {
-          regionName: sumName + " ~ " + "Lv. " + (level || 1),
+          regionName: sumName + " ~ " + "Lv. " + (level || "??"),
           itemInfo: _.sortBy(
             _.map(items || [], ({ name, source }) => {
               return {
@@ -70,6 +70,8 @@ function formatData(data) {
       });
     });
   });
+
+  console.log(items);
 
   const itemsListWithMulti = Object.keys(items).map((itemName) => {
     return {

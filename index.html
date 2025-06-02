@@ -58,7 +58,7 @@
 
         <div v-cloak class="row mt-3" v-if="!loading">
             <div class="col col-9">
-                <multiselect v-model="currentItems" :options="allItems" :value="name" :close-on-select="false"
+                <multiselect v-model="currentItems" :options="allItems" :close-on-select="false"
                     :clear-on-select="false" :multiple="true" track-by="name" label="name"
                     placeholder="Search Item by Name..." label="name" @remove="updateHash" @close="updateHash">
                 </multiselect>
