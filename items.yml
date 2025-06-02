@@ -7550,3 +7550,946 @@ regions:
             source: "Chest(x142y114)"
           - name: "Rotten Tree"
             source: "Wood Lumbering(x134y91)"
+
+  - name: Kingal Canyon
+    subregions:
+      - name: Kingal Canyon
+        abbrev: KC-KC
+        location:
+          x: 270
+          y: 277
+        level: 70
+        items:
+          - name: "Transmuted Fur"
+            source: "Shadow Wolf"
+          - name: "Demonic Gem"
+            source: "Shadow Wolf"
+          - name: "Sand of Reminiscence"
+            source: "Shadow Wolf"
+          - name: "Cracked Black Horn"
+            source: "Shadow Goblin"
+          - name: "Demonic Gem"
+            source: "Shadow Goblin"
+          - name: "Sand of Reminiscence"
+            source: "Shadow Goblin"
+          - name: "Broken Dagger"
+            source: "Shadow Goblin"
+          - name: "Demonic Gem"
+            source: "Shadow Harpy"
+          - name: "Harpy Flight Feather"
+            source: "Shadow Harpy"
+          - name: "Sand of Reminiscence"
+            source: "Shadow Harpy"
+          - name: "Valley Spring Water"
+            source: "Gather Spot"
+          - name: "Large Scallop Shell"
+            source: "Gather Spot"
+          - name: "Dull Iron ingot"
+            source: "Chest"
+          - name: "Red Chromium"
+            source: "Chest"
+          - name: "Crystal"
+            source: "Gather Spot(x269y269)"
+          - name: "Iron Ore Fragment"
+            source: "Gather Spot"
+          - name: "Ringing Ore"
+            source: "Gather Spot(x269y269)"
+          - name: "Kingalite"
+            source: "Gather Spot(x269y269)"
+          - name: "Pixie Mock Wing"
+            source: "Pixie"
+          - name: "Fine Femur"
+            source: "Pixie"
+          - name: "Phantom Ore"
+            source: "Ghost"
+          - name: "SiLver Ingot"
+            source: "Chest"
+          - name: "Red Chromium"
+            source: "Chest"
+          - name: "Magick Silt"
+            source: "Gargoyle"
+          - name: "Beast Fur"
+            source: "Grimwarg"
+          - name: "Beast Claw"
+            source: "Grimwarg"
+          - name: "Beast Leather"
+            source: "Grimwarg"
+          - name: "SiLver Ingot"
+            source: "Chest"
+          - name: "Dull Iron ingot"
+            source: "Chest"
+          - name: "Demon Envoy's Horn"
+            source: "Grigori"
+          - name: "Envoy's Loathsome Tail"
+            source: "Bearded Grigori"
+          - name: "Demon Envoy's Horn"
+            source: "Bearded Grigori"
+          - name: "Adamas Ore"
+            source: "Mining Spot(X260Y260)"
+          - name: "Jet Black Fur"
+            source: "Chest (Far North East)(x296y260)"
+          - name: "Jet Black Pelt"
+            source: "Chest (Far North East)(x296y260)"
+          - name: "Kingalite"
+            source: "Mining Spot(x271y275)"
+          - name: "Adamas Ore"
+            source: "Chest (Far North West)"
+          - name: "Ringing Ore"
+            source: "Mining Spot(x271y275)"
+          - name: "Black Claw of Misfortune"
+            source: "Scourge Lv 75 (Daytime)X292Y262"
+          - name: "Deformed Horn of Misfortune"
+            source: "Scourge Lv 75 (Daytime)X292Y262"
+          - name: "Blue Opal"
+            source: "Scourge Lv 75 (Daytime)X292Y262"
+          - name: "Black Claw of Misfortune"
+            source: "Night Scourge LV.87 (Nighttime) X292Y262"
+          - name: "Deformed Horn of Misfortune"
+            source: "Night Scourge LV.87 (Nighttime) X292Y262"
+          - name: "Blue Opal"
+            source: "Night Scourge LV.87 (Nighttime) X292Y262"
+          - name: "Blue Skies Blue Opal"
+            source: "Night Scourge LV.87 (Nighttime) X292Y262"
+          - name: "Sky Dragon's Blue Opal"
+            source: "Night Scourge LV.87 (Nighttime) X292Y262"
+          - name: "Ocean Crystal"
+            source: "Night Scourge LV.87 (Nighttime) X292Y262"
+
+      - name: "Nebula Temple"
+        location: null
+        level: null
+        items:
+          - name: "Cracked Black Horn"
+            source: "Shadow Goblin"
+          - name: "Demonic Gem"
+            source: "Shadow Goblin"
+          - name: "Sand of Reminiscence"
+            source: "Shadow Goblin"
+          - name: "Broken Dagger"
+            source: "Shadow Goblin"
+          - name: "Demonic Gem"
+            source: "Shadow Harpy"
+          - name: "Harpy Flight Feather"
+            source: "Shadow Harpy"
+          - name: "Sand of Reminiscence"
+            source: "Shadow Harpy"
+          - name: "Scroll of Defense"
+            source: "Chest"
+          - name: "Transmuted Fur"
+            source: "Shadow Wolf"
+          - name: "Demonic Gem"
+            source: "Shadow Wolf"
+          - name: "Sand of Reminiscence"
+            source: "Shadow Wolf"
+          - name: "Magick Silt"
+            source: "Gargoyle"
+          - name: "Demon Envoy's Horn"
+            source: "Grigori"
+          - name: "Unappraised Flower Trinket"
+            source: "Chest x84y-70"
+          - name: "Hard Leather Cloth"
+            source: "Chest"
+
+      - name: "Nebula Temple: Center"
+        location: null
+        level: null
+        items:
+          - name: "Cracked Black Horn"
+            source: "Shadow Goblin"
+          - name: "Demonic Gem"
+            source: "Shadow Goblin"
+          - name: "Sand of Reminiscence"
+            source: "Shadow Goblin"
+          - name: "Broken Dagger"
+            source: "Shadow Goblin"
+          - name: "Demonic Gem"
+            source: "Shadow Harpy"
+          - name: "Harpy Flight Feather"
+            source: "Shadow Harpy"
+          - name: "Sand of Reminiscence"
+            source: "Shadow Harpy"
+          - name: "Leather Cloth"
+            source: "Chest"
+          - name: "Transmuted Fur"
+            source: "Shadow Wolf"
+          - name: "Demonic Gem"
+            source: "Shadow Wolf"
+          - name: "Sand of Reminiscence"
+            source: "Shadow Wolf"
+          - name: "Magick Silt"
+            source: "Gargoyle"
+          - name: "Demon Envoy's Horn"
+            source: "Grigori"
+          - name: "Hard Leather Cloth"
+            source: "Chest"
+          - name: "Scroll of Protection"
+            source: "Chest"
+
+      - name: "Nebula Temple Corridor"
+        location: null
+        level: null
+        items:
+          - name: "Bloodied Giant Tusk"
+            source: "Gorecyclops Lv70 (80k xp)"
+          - name: "Hard Leather Cloth"
+            source: "Chest"
+          - name: "Unappraised Flower Trinket"
+            source: "Chest"
+
+      - name: "Nebula Temple Depths"
+        location: null
+        level: null
+        items:
+          - name: "Demon Envoy's Horn"
+            source: "Grigori"
+          - name: "Envoy's Loathsome Tail"
+            source: "Bearded Grigori"
+          - name: "Demon Envoy's Horn"
+            source: "Bearded Grigori"
+          - name: "Magick Silt"
+            source: "Gargoyle"
+          - name: "Unappraised Flower Trinket"
+            source: "Chest"
+          - name: "Unappraised Flower Trinket"
+            source: "Chest"
+
+      - name: "Hadin Underground Old Road"
+        location: null
+        level: null
+        items:
+          - name: "Pixie Mock Wing"
+            source: "Pixie"
+          - name: "Fine Femur"
+            source: "Pixie"
+          - name: "Scroll of Great Strength"
+            source: "Chest"
+          - name: "Sapphire"
+            source: "Chest"
+          - name: "Scroll of Protection"
+            source: "Chest"
+          - name: "Still Beating Heart"
+            source: "(S) infected Demon"
+
+      - name: "Hadin Underground Old Road: Center"
+        location: null
+        level: null
+        items:
+          - name: "Demon Envoy's Horn"
+            source: "Grigori"
+          - name: "Envoy's Loathsome Tail"
+            source: "Bearded Grigori"
+          - name: "Demon Envoy's Horn"
+            source: "Bearded Grigori"
+          - name: "Phantom Ore"
+            source: "Ghost"
+          - name: "Scroll of Great Strength"
+            source: "Chest"
+          - name: "Scroll of Protection"
+            source: "Chest"
+          - name: "Scroll of Power"
+            source: "Chest"
+          - name: "Pixie Mock Wing"
+            source: "Pixie"
+          - name: "Fine Femur"
+            source: "Pixie"
+
+      - name: "Hadin Underground Old Road: Depths"
+        location: null
+        level: null
+        items:
+          - name: "Garnet"
+            source: "Chest"
+          - name: "Scroll of Protection"
+            source: "Chest"
+          - name: "Unappraised Wind Trinket"
+            source: "Chest"
+
+      - name: "Shadolean Great Temple"
+        location: null
+        level: 75
+        items:
+          - name: "Dragon Hide"
+            source: "Lv 75 Behemoth"
+          - name: "Thick Dragonscale"
+            source: "Lv 75 Behemoth"
+          - name: "Behemoth Fang"
+            source: "Lv 75 Behemoth"
+          - name: "Dragon Fang"
+            source: "Lv 75 Behemoth"
+          - name: "Bloodied Giant Tusk"
+            source: "Gorecyclops Lvl73"
+          - name: "Giant's Molar"
+            source: "Gorecyclops Lvl73"
+          - name: "Hematite"
+            source: "Chest x64 y20"
+          - name: "Giant Tough Pelt"
+            source: "Goremanticore Lvl77"
+          - name: "Supple Fur"
+            source: "Goremanticore Lvl77"
+          - name: "Hematite"
+            source: "Chest x75 x142"
+          - name: "Medusa's Serpent Hair"
+            source: "Medusa Lvl77"
+          - name: "Magickal Potion"
+            source: "Medusa Lvl77"
+          - name: "Rare Green Tree Crystal"
+            source: "Chest x27y142 1min 5max"
+          - name: "Unappraised Flower Trinket"
+            source: "Chest x27y142"
+          - name: "Superior Gala Extract"
+            source: "Chest x27y142"
+          - name: "Composite Organ"
+            source: "Gorechimera Lvl73"
+          - name: "Unappraised Flower Trinket"
+            source: "Chest x51 y90"
+          - name: "Unappraised Flower Trinket"
+            source: "Chest x51 y90"
+          - name: "Kingal Medal"
+            source: "Chest x51 y90"
+
+      - name: "Ancient Underground Shrine"
+        location:
+          x: 291
+          y: 306
+        level: null
+        items:
+          - name: "Still Beating Heart"
+            source: "(S) infected Demon"
+          - name: "White Shining Sand"
+            source: "Chest"
+          - name: "Phantom Ore"
+            source: "Chest"
+          - name: "Lava Rock"
+            source: "Chest"
+          - name: "Dubious Animal Pelt"
+            source: "Chest"
+
+      - name: "Ancient Underground Shrine 2nd Floor"
+        location: null
+        level: null
+        items:
+          - name: "Phantom Ore"
+            source: "Chest"
+          - name: "Red Chromium"
+            source: "Chest"
+          - name: "Spirit SiLver Ingot"
+            source: "Chest"
+          - name: "Red Alloy Ingot"
+            source: "Chest"
+          - name: "Dubious Animal Pelt"
+            source: "Chest"
+          - name: "Seabird Syrinx"
+            source: "Siren"
+          - name: "Still Beating Heart"
+            source: "(S) infected Demon"
+
+      - name: "Ancient Underground Shrine Secret Chamber"
+        location: null
+        level: null
+        items:
+          - name: "Fleshy Animal Pelt"
+            source: "Chest"
+
+      - name: "Ancient Underground Shrine Inner Depths"
+        location: null
+        level: null
+        items:
+          - name: "Bronze Tail Feather"
+            source: "(S) Infected Stymphalides"
+          - name: "Red Chromium"
+            source: "Chest"
+          - name: "Dubious Animal Pelt"
+            source: "Chest"
+          - name: "Fleshy Animal Pelt"
+            source: "Chest"
+
+      - name: "Tarie Small Tower"
+        location: null
+        level: null
+        items:
+          - name: "Waterweed"
+            source: "Chest"
+          - name: "Dragonkin Stone"
+            source: "Chest 50% dropchance"
+
+      - name: "Grinmel Ruins"
+        location: null
+        level: null
+        items:
+          - name: "Beast Fur"
+            source: "Grimwarg"
+          - name: "Beast Claw"
+            source: "Grimwarg"
+          - name: "Beast Leather"
+            source: "Grimwarg"
+          - name: "Demonic Gem"
+            source: "Shadow Harpy"
+          - name: "Harpy Flight Feather"
+            source: "Shadow Harpy"
+          - name: "Sand of Reminiscence"
+            source: "Shadow Harpy"
+          - name: "Scroll of Protection"
+            source: "Chest"
+          - name: "Icon Fragment"
+            source: "Chest x38y-35"
+          - name: "Leather Cloth"
+            source: "Chest"
+          - name: "Hard Leather Cloth"
+            source: "Chest"
+          - name: "Amber Dragonscale"
+            source: "Drake Lv 75"
+
+      - name: "Grinmel Ruins Center Passage"
+        location: null
+        level: null
+        items:
+          - name: "Beast Fur"
+            source: "Grimwarg"
+          - name: "Beast Claw"
+            source: "Grimwarg"
+          - name: "Beast Leather"
+            source: "Grimwarg"
+          - name: "Demonic Gem"
+            source: "Shadow Harpy"
+          - name: "Harpy Flight Feather"
+            source: "Shadow Harpy"
+          - name: "Sand of Reminiscence"
+            source: "Shadow Harpy"
+          - name: "Icon Fragment"
+            source: "Chest"
+          - name: "Leather Cloth"
+            source: "Chest"
+          - name: "Hard Leather Cloth"
+            source: "Chest"
+
+      - name: "Grinmel Ruins Depths"
+        location: null
+        level: null
+        items:
+          - name: "Beast Fur"
+            source: "Grimwarg"
+          - name: "Beast Claw"
+            source: "Grimwarg"
+          - name: "Beast Leather"
+            source: "Grimwarg"
+          - name: "Demonic Gem"
+            source: "Shadow Harpy"
+          - name: "Harpy Flight Feather"
+            source: "Shadow Harpy"
+          - name: "Sand of Reminiscence"
+            source: "Shadow Harpy"
+          - name: "Icon Fragments"
+            source: "Chests"
+
+      - name: "Amburos Great Ruins"
+        location: null
+        level: null
+        items:
+          - name: "Strong Acid Slime Piece"
+            source: "Oil Jelly"
+          - name: "Seabird Syrinx"
+            source: "Siren"
+          - name: "Hematite"
+            source: "Chest"
+          - name: "Dull Iron Ingot"
+            source: "Chest"
+          - name: "Illustrated Old Cloth"
+            source: "Chest"
+          - name: "Spirit's Tapestry"
+            source: "Chest"
+
+      - name: "Amburos Great Ruins Center"
+        location: null
+        level: null
+        items:
+          - name: "Dull Iron Ingot"
+            source: "Chest"
+          - name: "Illustrated Old Cloth"
+            source: "Chestx38y-93"
+          - name: "Illustrated Old Cloth"
+            source: "x2 Chest bh lock door"
+          - name: "Spirit's Tapestry"
+            source: "x2 Chest bh lock door"
+
+  - name: Quests
+    subregions:
+      - name: "Ancient Warrior"
+        location:
+          x: 0
+          y: 0
+        level: 1
+        items:
+          - name: "Green Dye"
+            source: "Ancient Warrior Quest"
+          - name: "Lestania Amber"
+            source: "Ancient Warrior Quest"
+
+      - name: "The Lost Order"
+        location:
+          x: 0
+          y: 0
+        level: 2
+        items:
+          - name: "Pink Dye"
+            source: "The Lost Order Quest"
+          - name: "Disordering Drop"
+            source: "The Lost Order Quest"
+          - name: "Water of Chaos"
+            source: "The Lost Order Quest"
+
+      - name: "The Dazzling Gold"
+        location:
+          x: 0
+          y: 0
+        level: 3
+        items:
+          - name: "Yellow Dye"
+            source: "The Dazzling Gold Quest"
+          - name: "Golden Wedge"
+            source: "The Dazzling Gold Quest"
+          - name: "Gold Ritual Instrument"
+            source: "The Dazzling Gold Quest"
+
+      - name: "The Dragon Awakened"
+        location:
+          x: 0
+          y: 0
+        level: 4
+        items:
+          - name: "Blue Opal"
+            source: "The Dragon Awakened Quest"
+          - name: "Blue Skies Opal"
+            source: "The Dragon Awakened Quest"
+          - name: "Sky Dragons Blue Opal"
+            source: "The Dragon Awakened Quest"
+
+      - name: "The Call of Catacombs"
+        location:
+          x: 0
+          y: 0
+        level: 5
+        items:
+          - name: "Rare Netherworld Crystal"
+            source: "The Call of Catacombs Quest"
+
+      - name: "Drawn To Ancient Power"
+        location:
+          x: 0
+          y: 0
+        level: 6
+        items:
+          - name: "Rare Ancient Crystal"
+            source: "Drawn To Ancient Power Quest"
+
+      - name: "The Ancient City's Legacy"
+        location:
+          x: 0
+          y: 0
+        level: 7
+        items:
+          - name: "Rare Greenleaf Crystal"
+            source: "The Ancient City's Legacy Quest"
+
+      - name: "The Shining Gate"
+        location:
+          x: 0
+          y: 0
+        level: 8
+        items:
+          - name: "Rare Golden Crystal"
+            source: "The Shining Gate Quest"
+
+      - name: "Agent of Corruption"
+        location:
+          x: 0
+          y: 0
+        level: 9
+        items:
+          - name: "Rare Meteorite Crystal"
+            source: "Agent of Corruption Quest"
+
+      - name: "Phantasmic Great Dragon"
+        location:
+          x: 0
+          y: 0
+        level: 10
+        items:
+          - name: "Rare Vortex Crystal"
+            source: "Phantasmic Great Dragon Quest"
+
+      - name: "Earth's Fury"
+        location:
+          x: 0
+          y: 0
+        level: 11
+        items:
+          - name: "Rare Green Tree Crystal"
+            source: "Earth's Fury Quest"
+
+      - name: "Onset of Darkness"
+        location:
+          x: 0
+          y: 0
+        level: 12
+        items:
+          - name: "Ocean Crystal"
+            source: "Onset of Darkness Quest"
+
+      - name: "Phindym War Chronicles"
+        location:
+          x: 0
+          y: 0
+        level: 13
+        items:
+          - name: "Central Tree Drop"
+            source: "Phindym War Chronicles Quest"
+
+      - name: "With the Myrmidons"
+        location:
+          x: 0
+          y: 0
+        level: 14
+        items:
+          - name: "Book Of Acquisition"
+            source: "With the Myrmidons Quest"
+
+      - name: "Morgoda Residential Building"
+        location:
+          x: 0
+          y: 0
+        level: 15
+        items:
+          - name: "Alchemical Extract"
+            source: "Seeking Alchemical Extract"
+          - name: "Spectral Dragon Fang"
+            source: "Seeking Alchemical Extract"
+          - name: "Spectral Dragon Claw"
+            source: "Seeking Alchemical Extract"
+
+      - name: "Zoma Portcrystal Area"
+        location:
+          x: 0
+          y: 0
+        level: 16
+        items:
+          - name: "Magick Lion's Large Mane"
+            source: "Perilous Labrinth"
+          - name: "Sacred Blessed Cloth"
+            source: "Perilous Labrinth"
+          - name: "Pearl Shell"
+            source: "Perilous Labrinth"
+
+      - name: "The Dead Lord's Domain"
+        location:
+          x: 0
+          y: 0
+        level: 17
+        items:
+          - name: "Demon Arming Points"
+            source: "The Dead Lord's Retainers"
+          - name: "Dark Metal"
+            source: "The Dead Lord's Retainers"
+
+      - name: "Beast Territory"
+        location:
+          x: 0
+          y: 0
+        level: 18
+        items:
+          - name: "Behemoth Fang"
+            source: "The Attacking Bite"
+          - name: "Thick Dragonscale"
+            source: "The Attacking Bite"
+          - name: "Mergan Cloth"
+            source: "The Attacking Bite"
+
+      - name: "Dead City"
+        location:
+          x: 0
+          y: 0
+        level: 19
+        items:
+          - name: "Magick Gold Ingot"
+            source: "The Shadow That Roams The Dead City"
+
+      - name: "Golden Child Area"
+        location:
+          x: 0
+          y: 0
+        level: 20
+        items:
+          - name: "Alchemized Armor Plate"
+            source: "The Lost Golden Child"
+
+      - name: "Training Grounds"
+        location:
+          x: 0
+          y: 0
+        level: 21
+        items:
+          - name: "Training Stakes"
+            source: "Separation And Completion"
+
+      - name: "Shadow Realm"
+        location:
+          x: 0
+          y: 0
+        level: 22
+        items:
+          - name: "Shadowy Claw"
+            source: "The Sole Sign"
+
+      - name: "Dark Skies"
+        location:
+          x: 0
+          y: 0
+        level: 23
+        items:
+          - name: "Glossy Black Feather"
+            source: "The Wings of Darkness"
+
+      - name: "Spirit Realm"
+        location:
+          x: 0
+          y: 0
+        level: 24
+        items:
+          - name: "Smoky Quarts"
+            source: "The Bound Spirit"
+
+      - name: "Barren Wasteland"
+        location:
+          x: 0
+          y: 0
+        level: 25
+        items:
+          - name: "Gleipnir"
+            source: "The Barren Black Wings"
+          - name: "Cockatrice Poison Gland"
+            source: "The Barren Black Wings"
+
+      - name: "Evil Statue Location"
+        location:
+          x: 0
+          y: 0
+        level: 26
+        items:
+          - name: "Black Iron Ingot"
+            source: "The Obstructing Evil Statue"
+
+      - name: "Approaching Evil"
+        location:
+          x: 0
+          y: 0
+        level: 27
+        items:
+          - name: "Shadowy Claw"
+            source: "The Evil draws near"
+
+      - name: "Death's Journey"
+        location:
+          x: 0
+          y: 0
+        level: 28
+        items:
+          - name: "Spiritual Will Fragment"
+            source: "The Journey to Death"
+
+      - name: "Transformation Point"
+        location:
+          x: 0
+          y: 0
+        level: 29
+        items:
+          - name: "Protective Cloth"
+            source: "From one thing to another"
+
+      - name: "Remedy Location"
+        location:
+          x: 0
+          y: 0
+        level: 30
+        items:
+          - name: "Drómi"
+            source: "A Dubious Remedy"
+
+      - name: "Lise's Area"
+        location:
+          x: 0
+          y: 0
+        level: 31
+        items:
+          - name: "King Bay Leaf"
+            source: "Lise Lost Property"
+
+      - name: "Darkness Residence"
+        location:
+          x: 0
+          y: 0
+        level: 32
+        items:
+          - name: "Strong Thread"
+            source: "The Residents Of Darkness"
+
+      - name: "Treasure Vault"
+        location:
+          x: 0
+          y: 0
+        level: 33
+        items:
+          - name: "Red Alloy Ingot"
+            source: "The Stolen Treasure"
+
+      - name: "Marauder Territory"
+        location:
+          x: 0
+          y: 0
+        level: 34
+        items:
+          - name: "Red Alloy Ingot"
+            source: "The Lurking Marauders"
+
+      - name: "Northern Demon Territory"
+        location:
+          x: 0
+          y: 0
+        level: 35
+        items:
+          - name: "Scroll of Great Strength"
+            source: "Urgent Directive! Eliminate the demons to the North"
+
+      - name: "Pursuit Area"
+        location:
+          x: 0
+          y: 0
+        level: 36
+        items:
+          - name: "Courtly Cloth"
+            source: "The Wicked Pursuer"
+
+      - name: "Thief's Den"
+        location:
+          x: 0
+          y: 0
+        level: 37
+        items:
+          - name: "Ruby"
+            source: "A petty thiefs woes"
+
+      - name: "Dragon Lair"
+        location:
+          x: 0
+          y: 0
+        level: 38
+        items:
+          - name: "Dragon Hide"
+            source: "After That Dragon!"
+
+      - name: "Feeding Grounds"
+        location:
+          x: 0
+          y: 0
+        level: 39
+        items:
+          - name: "Bornite Ingot"
+            source: "A Desire to feed"
+
+      - name: "Giant's Rest"
+        location:
+          x: 0
+          y: 0
+        level: 40
+        items:
+          - name: "Lapis Lazuli"
+            source: "The Sleeping Giant"
+
+      - name: "Living Treasure Location"
+        location:
+          x: 0
+          y: 0
+        level: 41
+        items:
+          - name: "Red Chromium"
+            source: "The Mysterious Living Treasure"
+
+      - name: "Nightmare Realm"
+        location:
+          x: 0
+          y: 0
+        level: 42
+        items:
+          - name: "Drilled Plate Sheet"
+            source: "Trapped in a Nightmare"
+
+      - name: "Forest Witch"
+        location:
+          x: 0
+          y: 0
+        level: 43
+        items:
+          - name: "Linen"
+            source: "The Witch of the Forest"
+
+      - name: "Craft Guild Material Shop"
+        location:
+          x: 0
+          y: 0
+        level: 1
+        items:
+          - name: "Refined Paraffin"
+            source: "Craft Guild Material Shop"
+          - name: "Enlighted Ring Plate"
+            source: "Craft Guild Material Shop"
+          - name: "Malformed Nut"
+            source: "Craft Guild Material Shop"
+          - name: "Ancient Sago Palm"
+            source: "Craft Guild Material Shop"
+          - name: "Aged Green Leaves"
+            source: "Craft Guild Material Shop"
+          - name: "Soft Soil"
+            source: "Craft Guild Material Shop"
+
+      - name: "Craft Guild Shop"
+        location:
+          x: 0
+          y: 0
+        level: 1
+        items:
+          - name: "Quality Attack Upgrade Rock"
+            source: "Craft Guild Shop Next to Bazaar"
+          - name: "Quality Defense Upgrade Rock"
+            source: "Craft Guild Shop Next to Bazaar"
+          - name: "Key of dragon force"
+            source: "Create at Crafting guild"
+
+      - name: "Ellen Item Shop"
+        location:
+          x: 0
+          y: 0
+        level: 1
+        items:
+          - name: "Key of Jewlery"
+            source: "Ellen Item Shop Before Audience Chamber"
+          - name: "Key Of Gemstones"
+            source: "Ellen Item Shop Before Audience Chamber"
+          - name: "Key of Treasures"
+            source: "Ellen Item Shop Before Audience Chamber"
+          - name: "All Color Dyes"
+            source: "Ellen Item Shop Before Audience Chamber"
+          - name: "All Healing Items"
+            source: "Ellen Item Shop Before Audience Chamber"
+          - name: "Lockpicks"
+            source: "Ellen Item Shop Before Audience Chamber"
+          - name: "Knives"
+            source: "Ellen Item Shop Before Audience Chamber"
+          - name: "Pickaxes"
+            source: "Ellen Item Shop Before Audience Chamber"
+
+      - name: "Goblin King"
+        location:
+          x: 0
+          y: 0
+        level: 1
+        items:
+          - name: "Scale Dust"
+            source: "Goblin King"
